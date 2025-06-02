@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- My Css Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER NAVBAR -->
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">HrLearning.</a>
+
+            <form action="search.html" method="post" class="search-form">
+                <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/HrLarning_logo.png" class="image" alt="">
+                <h3 class="name">User Name</h3>
+                <p class="role">studen</p>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <!-- SIDE NAVBAR -->
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/HrLarning_logo.png" class="image" alt="userImage">
+            <h3 class="name">User Name</h3>
+            <p class="role">studen</p>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+            <a href="developer.html"><i class="fas fa-id-card"></i><span>Developer</span></a>
+        </nav>
+
+    </div>
+
+    <!-- TEACHERS MAIN BOX -->
+
+    <section class="teachers">
+
+        <h1 class="heading">expert teachers</h1>
+
+
+        <form action="" method="post" class="search-tutor">
+            <input type="text" name="search_box" placeholder="search tutors..." required maxlength="100">
+            <button type="submit" class="fas fa-search" name="search_tutor"></button>
+        </form>
+
+        <div class="box-container">
+
+            <div class="box offer">
+               <h3>become a tutor</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque ipsam fuga ex et aliquam.</p>
+               <a href="register.html" class="inline-btn">get started</a>
+            </div>
+
+            <div class="box">
+               <div class="tutor">
+                  <img src="images/HerryBhai.jpeg" alt="">
+                  <div>
+                     <h3>Harry Bhai</h3>
+                     <span>developer</span>
+                  </div>
+               </div>
+               <p>total playlists : <span>4</span></p>
+               <p>total videos : <span>18</span></p>
+               <p>total likes : <span>1208</span></p>
+               <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+
+            <div class="box">
+               <div class="tutor">
+                  <img src="images/harish.jpg" alt="">
+                  <div>
+                     <h3>Harish Gurjar</h3>
+                     <span>developer</span>
+                  </div>
+               </div>
+               <p>total playlists : <span>3</span></p>
+               <p>total videos : <span>30</span></p>
+               <p>total likes : <span>1209608</span></p>
+               <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+
+            <div class="box">
+               <div class="tutor">
+                  <img src="images/kashish_sankhala.jpg" alt="">
+                  <div>
+                     <h3>Kashish Sankhala</h3>
+                     <span>developer</span>
+                  </div>
+               </div>
+               <p>total playlists : <span>3</span></p>
+               <p>total videos : <span>20</span></p>
+               <p>total likes : <span>19608</span></p>
+               <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <!-- Footer Part -->
+    <footer class="footer">
+
+        &copy; copyright @ 2023 by <span>HarishDeveloper</span> | all rights reserved!
+
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
